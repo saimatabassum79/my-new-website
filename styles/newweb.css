@@ -26,11 +26,44 @@ body{
 }
 
 .part-2{
-     border: 3px solid red;
-     width: 700px;
-     height:501px;
+     
+     width: 600px;
      margin: 0 auto;
+     height: 600px;
      margin-top: 50px;
-    
-    
+     height: 665px;
+     gap: 0px;
+
+}
+.main-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-text h1{
+    color: #FF0000;
+    font-family:Inter;
+    font-size: 70px;
+    font-weight: 400;
+}
+.main-text p{
+    color: #FF0000;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+.main-text h2{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 30px;
+}
+.main-image{
+    height: 270px;
+    width: 600px;
+}
+.main-image img{
+    height: 400px;
+    width: 600px;
+    padding-top: 10px;
 }

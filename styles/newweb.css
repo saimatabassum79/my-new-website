@@ -2,7 +2,7 @@
 /*header design*/
 *{
     margin: 0;
-    padding: 5px;
+    padding: 2px;
 }
 .banner-section{
     max-width: 1340px;
@@ -75,7 +75,6 @@ body{
 .part-3{
    max-width: 1340px;
    height: 600px;
-   border: 3px solid green;
    background-image: url('../images/Vectorrr.png');
    background-size: cover;
    background-color: rgba(0, 0, 0, 0.3);
@@ -124,4 +123,269 @@ body{
     width: 380PX;
     height: 480px;
    
+}
+.part-4{
+    max-width: 1330px;
+    height: 430px;
+    
+    margin-top: 60px;
+    border-radius: 4px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+}
+.part-4-section{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 78px;
+    
+}
+.part-4-section .con{
+    color: #FF0000;
+}
+.btn{
+    height: 430px;
+    margin: 0 auto;
+    padding-left: 600px;
+    padding-top: 35px;
+    
+}
+ .btn-primary{
+    background-color: #FF0000;
+    color: white;
+    border: none;
+    padding: 15px;
+    width: 100px;
+    border-radius: 5px;
+}
+.part-5{
+    max-width: 1340px;
+     height: 380px;
+   
+    margin-top: 60px;
+}
+.part-5-section{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    height: 380px;
+    margin: 0 auto;
+}
+.main-container1{
+   
+    font-family: Inter;
+    
+
+}
+.main-container1 h4{
+    color: #FF0000;
+    font-size: 20px;
+}
+.main-container1 h1{
+    font-family: Inter;
+    font-size: 40px;
+    
+}
+.main-container1 p{
+    font-family: Inter;
+    font-size: 16px;
+    color: #07021199;
+}
+.main-container2{
+    border: 13px solid #FF0000;
+    border-radius: 50% 50% 50% 50%;
+    padding: 20px;
+    padding-bottom: 8px;
+    margin-left: 20px;
+    margin-top: 5pxpx;
+    margin-bottom: 10px;
+   
+}
+.main-container2 img{
+    height: 300px;
+    width:300px;
+    padding-bottom: 10px;
+}
+.main-container3{
+   
+    margin-top: 80px;
+}
+.main-container3 h1{
+    color: #FF0000;
+    font-size: 40px;
+    font-family: Inter;
+
+}
+.main-container3 p{
+    color: #07021199;
+    font-family: Inter;
+    font-size: 16px;
+}
+.part-6{
+    max-width: 1340px;
+    height: 810px;
+   
+    margin-top: 60px;
+    
+}
+.part-6-section{
+    position: relative;
+}
+.solid-color{
+    
+    height: 180px;
+    width: 1370px;
+    background-image: url('../images/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 75.5% ;
+}
+.main-hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    width: 70%;
+   margin: 0 auto;
+   margin-top: 30px;
+}
+.main-hero h3{
+    color: #FF0000;
+    padding-left: 400px;
+    font-size: 20px;
+}
+.main-hero h1{
+    padding-left: 300px;
+    font-size: 45px;
+    font-family: Merriweather;
+    
+}
+.tittle{
+    color: #FF0000;
+
+}
+.main-hero p1{
+    color: #07021199;
+    padding-left: 230px;
+    font-size: 16px;
+    padding-top: 20px;
+}
+.main-hero p2{
+    color: #07021199;
+    padding-left: 180px;
+    font-size: 16px;
+}
+.main-hero p3{
+    color: #07021199;
+    padding-left: 300px;
+    font-size: 16px;
+}
+.part-6-section2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap:90px;
+    margin-top: 90px;
+    margin-bottom: 20px;
+   
+    
+    
+}
+.main-hero1{
+    margin-bottom: 30px;
+    margin-top: 40px;
+    position: relative;
+    z-index: 1;
+}
+.main-hero1 img{
+    height: 400px;
+    width: 450px;
+   
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.main-hero2{
+    margin-bottom: 100px;
+}
+.main-hero2 img{
+   
+    margin-right: 30px;
+   height: 190px;
+   width: 190px;
+   margin-bottom: 140px;
+}
+.part-7{
+    max-width: 1340px;
+    height: 930px;
+   
+    margin-top: 60px;
+    
+}
+.part-7-section p1{
+    color: #FF0000;
+    font-family: Inter;
+}
+.part-7-section h1{
+    font-weight: 900;
+}
+.part-7-section p{
+     color: #07021199;
+     font-family: Inter;
+     font-weight: 400;
+     font-size: 16px;
+     padding-top: 5px;
+}
+
+.part-7-image{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+}
+.image{
+    width: 390px;
+    height: 400px;
+}
+.image img{
+    width: 390px;
+    height: 400px;
+  
+}
+.part-8{
+    max-width: 1340px;
+    height: 500px;
+    border: 2px solid red;
+    margin-top: 60px;
+}
+.part-8-section{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 300px;
+   
+    width: 40%;
+}
+.poly{
+    width: 130px;
+    height: 130px;
+}
+.part-8-section img{
+    width: 130px;
+    height: 130px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+.part-8-section h1{
+    padding-top: 30px;
+}
+.part-8-section p{
+    padding-bottom: 80px;
 }
